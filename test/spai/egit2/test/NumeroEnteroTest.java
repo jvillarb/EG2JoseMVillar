@@ -47,5 +47,10 @@ public class NumeroEnteroTest {
         this.numero.decrementar();
         assertEquals(-1, numero.getValor());
     }
+    
+    @Test
+    public void testSumar(){
+    	 assertEquals(110, numero.sumar(10));
+    }
 
 }

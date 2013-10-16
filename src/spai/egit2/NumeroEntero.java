@@ -30,5 +30,9 @@ public class NumeroEntero {
     public void decrementar() {
         this.valor--;
     }
+    
+    public int sumar(int cantidad) {
+    	return -1;
+    }
 
 }
