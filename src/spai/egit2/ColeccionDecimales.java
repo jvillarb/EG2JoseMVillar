@@ -35,8 +35,12 @@ public class ColeccionDecimales {
     }
     
     public double media() {
-		return 0;
-    	
+    	int denominador = this.coleccion.size();
+	double numerador = 0;
+	for (double item : this.coleccion) {
+		numerador += item;
+	}
+	return numerador / denominador;
     }
 
 }
