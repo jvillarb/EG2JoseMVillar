@@ -28,7 +28,7 @@ public class ColeccionDecimalesTest {
     
     @Test
     public void testMedia() {
-        assertEquals(1.93, this.numeros.media(), 1e-10);
+        assertEquals(1.93, this.numeros.media(), 1e-2);
     }
 
 }
