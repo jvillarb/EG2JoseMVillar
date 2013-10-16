@@ -76,7 +76,8 @@ public class Fraccion {
 	}
 
 	public Fraccion multiplicacion(Fraccion f1, Fraccion f2) {
-		return null;
+		return new Fraccion(f1.getNumerador() * f2.getNumerador(),
+				f1.getDenominador() * f2.getDenominador());
 	}
 
 	@Override
