@@ -41,6 +41,6 @@ public class Persona {
 	}
 
 	public String nombreCompletoMayus() {
-		return null;
+		return this.nombreCompleto().toUpperCase();
 	}
 }
