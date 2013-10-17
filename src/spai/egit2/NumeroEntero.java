@@ -32,7 +32,7 @@ public class NumeroEntero {
     }
     
     public int sumar(int cantidad) {
-    	return -1;
+    	return this.valor + cantidad;
     }
 
 }

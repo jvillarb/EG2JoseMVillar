@@ -75,7 +75,11 @@ public class Fraccion {
 	}
 
 	public boolean isImpropias() {
-		return false;
+		if (this.getNumerador() > this.getDenominador()) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 	public Fraccion multiplicacion(Fraccion f1, Fraccion f2) {
